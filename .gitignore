@@ -1,0 +1,29 @@
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- Environment & secrets (never commit real values) ---
+.env
+.env.*
+!.env.example
+
+# --- Java / Maven (backend) ---
+backend/target/
+*.class
+*.log
+hs_err_pid*
+
+# --- Node / Angular (frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+npm-debug.log*
+
+# --- Tests / reports ---
+playwright-report/
+test-results/
