@@ -10,7 +10,7 @@ Docker, GitHub Actions, images publiées sur GHCR (déployées par le projet `se
 Règle : chaque jour, faire la première étape non cochée, puis la cocher. Une étape = un incrément qui marche et qui est testé.
 
 ## Semaine 1 – Backend et cœur métier
-- [ ] Jour 1 – Structure du monorepo : `backend/`, `frontend/`, `docs/`, `docker-compose.yml`, `.gitignore`, licence MIT, README (problème CRA, vision, architecture visée).
+- [x] Jour 1 – Structure du monorepo : `backend/`, `frontend/`, `docs/`, `docker-compose.yml`, `.gitignore`, licence MIT, README (problème CRA, vision, architecture visée).
 - [ ] Jour 2 – Squelette Spring Boot (Java 21) : actuator, PostgreSQL + Flyway, compose local, premier test d'intégration.
 - [ ] Jour 3 – Modèle métier : Organisation, Produit, Composant (purl, version), Vulnérabilité, Constat (finding) + migrations + tests.
 - [ ] Jour 4 – Import SBOM : parsing CycloneDX JSON (et SPDX JSON), endpoint d'upload, tests avec des SBOM d'exemple.
